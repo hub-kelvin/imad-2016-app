@@ -9,14 +9,14 @@ var container={
     
     articleOne:
     {
-        title :'Article-One',
-        heading :'Now you see your Article-One'
+        'title' :'Article-One',
+        'heading' :'Now you see your Article-One'
     
     },
 articleTwo:
     {
-        title :'Article-Two',
-        heading :'Now you see your Article-Two'
+        'title' :'Article-Two',
+        'heading' :'Now you see your Article-Two'
     }
     
     
