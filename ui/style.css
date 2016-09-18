@@ -1,7 +1,7 @@
 body {
-    font-family:Verdana,sans-serif;
+    font-family: Verdana,sans-serif;
     background-color: lightgrey;
-    background-image: url('/ui/background.png');
+    background: url('/ui/background.png');
     margin-top: 75px;
 }
 
