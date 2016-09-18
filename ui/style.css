@@ -5,17 +5,7 @@ body {
     background: url('/ui/bg.jpg');
     margin-top: 75px;
 }
-.navigation {
-	position: fixed;
-	top:0;
-	left:0;
-	width:100%;
-	z-index:100;
-	background: #272822;
-	padding: 10px;
-	line-height:2em;
-	border-bottom: 2px solid #26d9e8;
-}
+
 
 .center {
     text-align: center;
