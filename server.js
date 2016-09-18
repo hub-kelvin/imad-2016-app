@@ -5,11 +5,22 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var contain={
+var container={
+    
+    articleOne:
+    {
         title :'Article-One',
         heading :'Now you see your Article-One'
     
-};
+    },
+articleTwo:
+    {
+        title :'Article-Two',
+        heading :'Now you see your Article-Two'
+    }
+    
+    
+            };
 function createTemp(data) {
     var temp=`<html>
     <head>
@@ -42,12 +53,10 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
-app.get('/article-one', function (req, res) {
-  res.send(createTemp(contain));
+app.get('/:article', function (req, res) {
+  res.send(createTemp(container[req.params.article]));
 });
-app.get('/article-two', function (req, res) {
-  res.sendFile(path.join(__dirname,'ui','article-two.html'));
-});
+
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
