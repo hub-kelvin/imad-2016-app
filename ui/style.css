@@ -5,8 +5,13 @@ body {
     background: url('/ui/bg.jpg');
     margin-top: 75px;
 }
-header, footer {
+.contain {
     width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
     color: white;
     background-color: black;
     clear: left;
