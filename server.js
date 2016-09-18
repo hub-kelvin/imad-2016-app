@@ -11,7 +11,7 @@ var container={
     {
         'title' :'Article-One',
         'heading' :'Now you see your Article-One',
-        'link' : '"/article-Two"'
+        'link' : '"/article-two"'
     },
 'article-two' :
     {
