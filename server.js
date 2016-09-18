@@ -10,13 +10,14 @@ var container={
     'article-one' :
     {
         'title' :'Article-One',
-        'heading' :'Now you see your Article-One'
-    
+        'heading' :'Now you see your Article-One',
+        'link' : '"/article-Two"'
     },
 'article-two' :
     {
         'title' :'Article-Two',
-        'heading' :'Now you see your Article-Two'
+        'heading' :'Now you see your Article-Two',
+        'link' : '"/article-one"'
     }
     
     
@@ -29,7 +30,7 @@ function createTemp(data) {
     <body>
         <div>
             <a href="/">Home</a>
-            <a href="/article-two">Article-Two</a>
+            <a href=${data.link}>${data.link}</a>
             
         </div>
     <h1>${data.heading}</h1>
