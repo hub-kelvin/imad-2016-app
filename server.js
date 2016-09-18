@@ -7,13 +7,13 @@ app.use(morgan('combined'));
 
 var container={
     
-    'article-one' :
+    articleOne :
     {
         'title' :'Article-One',
         'heading' :'Now you see your Article-One'
     
     },
-'article-two' :
+articleTwo :
     {
         'title' :'Article-Two',
         'heading' :'Now you see your Article-Two'
