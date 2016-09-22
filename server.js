@@ -44,8 +44,8 @@ app.get('/', function (req, res) {
 var counter=0;
 app.get('/test', function (req, res) {
   
-  counter=counter+1;
-  res.send(counter.toString());
+  count=count+1;
+  res.send(count.toString());
 });
 
 app.get('/ui/style.css', function (req, res) {
