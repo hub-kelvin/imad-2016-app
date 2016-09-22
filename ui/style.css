@@ -22,4 +22,10 @@ body {
 .img-medium {
     height: 200px;
 }
+.footer{
+	font-size:9px;
+	text-align: center;
+	margin-top:400px;
+	color:white;
+}
 
