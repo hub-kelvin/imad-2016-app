@@ -20,5 +20,5 @@ counter.onclick= function(){
 var input_btn=document.getElementById("input_button");
 input_btn.onclick = function(){
    var nl= document.getElementById("namelist");
-   nl.innerHTML='<li>'+'kjhjhkj'+'</li>';
+   nl.innerHTML+='<li>'+'kjhjhkj'+'</li>';
 };
