@@ -17,8 +17,7 @@ counter.onclick= function(){
             req.send(null);
 };
 var Name=document.getElementById("inputname").value;
-var button_submit=document.getElementById("submit");
-button_submit.click=function(){
+document.getElementById("submit").click=function(){
     
     document.getElementById("namelist").innerHTML='<li>kjhjhkj</li>';
 };
