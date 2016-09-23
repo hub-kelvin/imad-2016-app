@@ -41,7 +41,7 @@ function createTemp(data) {
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-var counter=0;
+var count=0;
 
 app.get('/test', function (req, res) {
  count=count+1;
