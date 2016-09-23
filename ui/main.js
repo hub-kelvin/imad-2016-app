@@ -1,7 +1,7 @@
 console.log('Loaded!');
 var counter=document.getElementById("count");
 var c=0;
-
+var Name=document.getElementById("inputname").value;
 counter.onclick= function(){
     
     var req = new XMLHttpRequest();
@@ -16,7 +16,7 @@ counter.onclick= function(){
             req.open('GET',"http://hub-kelvin.imad.hasura-app.io/test",true);
             req.send(null);
 };
-var Name=document.getElementById("inputname").value;
+
 var input_btn=document.getElementById("input_button");
 input_btn.onclick = function(){
    var nl= document.getElementById("namelist");
