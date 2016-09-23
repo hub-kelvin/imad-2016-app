@@ -19,5 +19,5 @@ counter.onclick= function(){
 var Name=document.getElementById("inputname").value;
 document.getElementById("submit").click=function(){
     
-    document.getElementById("namelist").innerHTML='<li>kjhjhkj</li>';
+    document.getElementById("namelist").innerHTML='<li>'+'kjhjhkj'+'</li>';
 };
