@@ -6,7 +6,7 @@ counter.onclick= function(){
     var req = new XMLHttpRequest();
     req.onreadystatechange = function()
     {
-            if(req.readyState===XMLHttpRequest.DONE)
+            if(req.readyState===4)
             {
             if(req.status===200)
             document.getElementById("value").innerHTML=(req.responseText).toString();
