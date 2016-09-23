@@ -20,5 +20,5 @@ var Name=document.getElementById("inputname").value;
 var input_btn=document.getElementById("input_button");
 input_btn.onclick = function(){
    var nl= document.getElementById("namelist");
-   nl.innerHTML+='<li>'+Name+'</li>';
+   nl.innerHTML+='<li>' + Name + '</li>';
 };
