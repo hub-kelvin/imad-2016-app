@@ -6,11 +6,10 @@ counter.onclick= function(){
     var req = new XMLHttpRequest();
     req.onreadystatechange = function()
     {
-        var span=document.getElementById("value");
             if(req.readyState===XMLHttpRequest.DONE)
             {
             if(req.status===200)
-                span.innerhtml=(req.responseText).toString();
+            document.getElementById("value").innerhtml="hello world";
             }
     };
             req.open('GET',"http://hub-kelvin.imad.hasura-app.io/test",true);
