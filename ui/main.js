@@ -7,7 +7,7 @@ counter.onclick= function(){
     req.onreadystatechange = function()
     {
         var span=document.getElementById("value");
-            if(req.readystate===4)
+            if(req.readyState===4)
             {
             if(req.status===200)
                 span.innerhtml=(req.responseText).toString();
