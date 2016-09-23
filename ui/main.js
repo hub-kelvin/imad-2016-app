@@ -1,7 +1,7 @@
 console.log('Loaded!');
 var counter=document.getElementById("count");
 var c=0;
-counter.onclick= function(){
+count.onclick= function(){
     
     var req = new XMLHttpRequest();
     req.onreadystatechange = function()
@@ -9,7 +9,7 @@ counter.onclick= function(){
             if(req.readyState===XMLHttpRequest.DONE)
             {
             if(req.status===200)
-            document.getElementById("value").innerhtml="hello world";
+            document.getElementById("value").innerhtml=(req.responseText).toString();
             }
     };
             req.open('GET',"http://hub-kelvin.imad.hasura-app.io/test",true);
