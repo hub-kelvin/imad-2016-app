@@ -1,7 +1,7 @@
 console.log('Loaded!');
 var counter=document.getElementById("count");
 var c=0;
-var Name=document.getElementById("inputname").value;
+var Name=;
 counter.onclick= function(){
     
     var req = new XMLHttpRequest();
@@ -20,5 +20,5 @@ counter.onclick= function(){
 var input_btn=document.getElementById("input_button");
 input_btn.onclick = function(){
    var nl= document.getElementById("namelist");
-   nl.innerHTML+='<li>' + Name + '</li>';
+   nl.innerHTML+='<li>' + document.getElementById("inputname").value + '</li>';
 };
