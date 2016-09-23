@@ -19,7 +19,7 @@ counter.onclick= function(){
 
 var input_btn=document.getElementById("input_button");
 input_btn.onclick = function(){
-    alert('');
-   var nl= document.getElementById("namelist");
-   nl.innerHTML+='<li>' + document.getElementById("inputname").value + '</li>';
+    alert('ty');
+  // var nl= document.getElementById("namelist");
+  // nl.innerHTML+='<li>' + document.getElementById("inputname").value + '</li>';
 };
