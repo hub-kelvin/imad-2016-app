@@ -19,5 +19,5 @@ counter.onclick= function(){
 var Name=document.getElementById("name").value;
 var button=document.getElementById("submit");
 button.click=function(){
-    document.getElementById("namelist").innerHTML="<li>"+"Kelvin"+"</li>";
+    document.getElementById("namelist").innerHTML="<li>"+document.getElementById("name").value+"</li>";
 };
