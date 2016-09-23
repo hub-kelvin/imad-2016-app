@@ -16,7 +16,7 @@ counter.onclick= function(){
             req.open('GET',"http://hub-kelvin.imad.hasura-app.io/test",true);
             req.send(null);
 };
-var Name=document.getElementById("inputname").value;
+//var Name=document.getElementById("inputname").value;
 document.getElementById("submit").click=function(){
     
     document.getElementById("namelist").innerHTML='<li>'+'kjhjhkj'+'</li>';
