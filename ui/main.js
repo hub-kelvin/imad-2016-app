@@ -3,7 +3,7 @@ var counter=document.getElementById("count");
 var c=0;
 counter.onclick= function(){
     
-    var req = new XMLhttpRequest();
+    var req = new XMLHttpRequest();
     req.onreadystatechange = function()
     {
         var span=document.getElementById("value");
