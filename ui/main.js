@@ -1,5 +1,5 @@
 console.log('Loaded!');
-var counter=document.getElementById("count");
+var counter=document.getElementById("value");
 var c=0;
 counter.onclick= function(){
     
