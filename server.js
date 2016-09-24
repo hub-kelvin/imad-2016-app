@@ -43,8 +43,8 @@ app.get('/', function (req, res) {
 });
 
 
-app.get('/submit/:Query', function (req, res) {
-  res.send(req.query.Query);
+app.get('/submit', function (req, res) {
+  res.send(req.query.name);
 });
 
 app.get('/ui/style.css', function (req, res) {
