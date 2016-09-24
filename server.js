@@ -4,7 +4,9 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-
+app.get('/submit', function (req, res) {
+  res.send(req.query.name);
+});
 var container={
     
     'article-one' :
@@ -43,9 +45,7 @@ app.get('/', function (req, res) {
 });
 
 
-app.get('/submit', function (req, res) {
-  res.send(req.query.name);
-});
+
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
