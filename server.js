@@ -47,6 +47,9 @@ app.get('/test', function (req, res) {
  count=count+1;
   res.send(count.toString());
 });
+app.get('/submit/:Query', function (req, res) {
+  res.send(req.query.Query);
+});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
