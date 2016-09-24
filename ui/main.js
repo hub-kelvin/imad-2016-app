@@ -19,7 +19,7 @@ input_btn.onclick = function(){
                 
             }
     };
-            req.open('GET',"http://hub-kelvin.imad.hasura-app.io/submit?name=" + document.getElementById("inputname").value ,true);
+            req.open('GET',"http://hub-kelvin.imad.hasura-app.io/submit?Query=" + document.getElementById("inputname").value ,true);
             req.send(null);
 
 
