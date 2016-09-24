@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 app.get('/submit', function (req, res) {
-  res.send(req.query.name);
+  res.send(req.query.Query);
 });
 var container={
     
