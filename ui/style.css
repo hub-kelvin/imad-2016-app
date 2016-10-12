@@ -1,11 +1,11 @@
-body {
-    font-family: verdana,sans-serif;
-    color : white;
-    background-color: lightgrey;
-    background: url('/ui/bg.jpg');
-    margin-top: 75px;
-}
+body
+{
+background-color: #f1f1f1;
+font-family:verdana;
+color :black; 
+text-align: center;
 
+}
 
 .center {
     text-align: center;
@@ -22,22 +22,9 @@ body {
 .img-medium {
     height: 200px;
 }
-.footer{
-	font-size:9px;
-	text-align: center;
-	margin-top:400px;
-	color:white;
-}
 
-body
-{
-	background-color: #f1f1f1;
 
-font-family:verdana;
-color :black; 
-text-align: center;
 
-}
 .name
 {
 	font-size : 70px;
@@ -55,10 +42,7 @@ p{
 	font-size: 15px;
 	
 }
-/*.footer {
-	font-color:lightgrey;
-	text-align: center;
-}*/
+
 .footer{
 	font-size:9px;
 	text-align: center;
