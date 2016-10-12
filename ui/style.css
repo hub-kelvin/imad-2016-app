@@ -32,11 +32,11 @@ body {
 body
 {
 	background-color: #f1f1f1;
-//background: url('bg.jpg');
+
 font-family:verdana;
 color :black; 
 text-align: center;
-//background-repeat:none;
+
 }
 .name
 {
@@ -44,10 +44,7 @@ text-align: center;
 	color:#848484;
 	font-weight: bold;
 }
-.logo
-{
-	 
-}
+
 p{
 	color:lightgrey;
 	text-align: center;
@@ -88,19 +85,13 @@ th{
 	background-color: lightgreen;
 	color:white;
 }
-p.hide{
-	border:1px solid black;
-	padding:5px;
-	background-color: #90ee90;
-	color: black;
-	cursor:pointer;
-}
+
 .mine{
 	border:1px solid black;
 	padding:15px;
 	background-color: #f2f2f2;
 	color: black;
-	//display: none;
+
 	position:absolute;
 	
 }
@@ -118,8 +109,7 @@ p.hide{
 .CenterAlignText{
 	border:3px solid green;
 	text-align:center;
-	//width:100%;
-	//padding:5px;
+
 }
 
 
@@ -127,13 +117,7 @@ div:hover p{
 
 	display:block;
 }
-p.test{
-	border:2px solid black;
-	background-color: lightgrey;
 
-	color:white;
-	display:none;
-}
 ul{
 	list-style-type: none;
 	margin:0;
@@ -158,7 +142,7 @@ li a{
 
 }
 li a:hover{
-	icons.color:black;
+	
 	color:black;
 	background-color: white;
 }
@@ -207,4 +191,4 @@ li a.active{
 	color:white;
 	background-color: lightgreen;
 }
-*/fotter
+*/
