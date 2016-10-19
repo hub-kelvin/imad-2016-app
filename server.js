@@ -5,12 +5,13 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 app.get('/submit', function (req, res) {
+  res.send(req.query.Search);
+});
+app.get('/submit', function (req, res) {
   res.send(req.query.Query);
 });
 
-app.get('/submit', function (req, res) {
-  res.send(req.query.Search);
-});
+
 var container={
     
     'article-one' :
