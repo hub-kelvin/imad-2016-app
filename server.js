@@ -9,7 +9,7 @@ app.get('/submit', function (req, res) {
 });
 
 app.get('/submit', function (req, res) {
-  res.send(req.query.search);
+  res.send(req.query.Search);
 });
 var container={
     
