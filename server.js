@@ -7,6 +7,7 @@ app.use(morgan('combined'));
 app.get('/submit', function (req, res) {
   res.send(req.query.Query);
 });
+
 app.get('/submit', function (req, res) {
   res.send(req.query.search);
 });
