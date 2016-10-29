@@ -70,6 +70,7 @@ h1{
 	box-sizing: border-box;
 	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size:45px;
+	text-align:justify;
 }
 
 h1:hover
