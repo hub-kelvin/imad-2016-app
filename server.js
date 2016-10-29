@@ -30,23 +30,7 @@ app.get('/submit', function (req, res) {
 });
 
 
-var container={
-    
-    'article-one' :
-    {
-        'title' :'Article-One',
-        'heading' :'Now you see your Article-One',
-        'link' : '"/article-two"'
-    },
-'article-two' :
-    {
-        'title' :'Article-Two',
-        'heading' :'Now you see your Article-Two',
-        'link' : '"/article-one"'
-    }
-    
-    
-            };
+
             
            
 function createTemp(data) {
