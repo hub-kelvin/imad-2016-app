@@ -164,6 +164,7 @@ h1{
 	box-sizing: border-box;
 	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size:45px;
+	text-align:center;
 }
 h4{
 	border:0;
