@@ -56,6 +56,7 @@ function createTemp(data) {
 
 <h1>${data.heading}</h1>
 <h4>${data.date}</h4>
+<img src='${data.link}'>
 <p>
 ${data.content}
 </p>
