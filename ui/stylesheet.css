@@ -66,6 +66,7 @@ h1:hover
 	color:skyblue;
 	cursor: pointer;
 }
+
 h1{
 	margin-top:75px;
 	border:0;
@@ -75,7 +76,7 @@ h1{
 	font-size:45px;
 }
 
-h4 {
+h4{
     border: 0;
     max-width: 750px;
     box-sizing: border-box;
