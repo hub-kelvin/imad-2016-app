@@ -116,7 +116,7 @@ ul{
             
             @media(max-width:700px){
             li{display:block;}
-            li a{padding:0 0 0 300px;} 
+            li a{padding:0 0 0 200px;} 
             }
             
             footer
