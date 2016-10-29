@@ -50,19 +50,34 @@ var container={
             
            
 function createTemp(data) {
-    var temp=`<html>
+    var temp=`<!doctype HTML>
+<html>
     <head>
-    <title>${data.title}</title>
-    </head>
-    <body>
-        <div>
-            <a href="/">Home</a>
-            <a href=${data.link}>${data.link}</a>
-            
-        </div>
-    <h1>${data.heading}</h1>
-    </body>
-    </html>`;
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">    
+    <link href="/ui/poststyle.css" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${data.title}</title> 
+</head>
+
+<body>
+
+<ul>
+<li><a href="">port 80</a></li>
+<li><a href="">Home</a></li>
+<li><a href="">Contact</a></li>
+<li><a href="">About</a></li>
+</ul>
+
+
+<h1>${data.heading}</h1>
+<h4>${data.date}</h4>
+<p>
+${data.content}
+</p>
+</body>
+<footer>made with &hearts; by Kelvin</footer>    
+</html>`;
     return temp;
 }
 app.get('/', function (req, res) {
@@ -75,7 +90,9 @@ app.get('/', function (req, res) {
 app.get('/ui/stylesheet.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'stylesheet.css'));
 });
-
+app.get('/ui/poststyle.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'poststyle.css'));
+});
 app.get('/ui/bitstory.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'bitstory.png'));
 });
@@ -84,9 +101,22 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
-app.get('/:article', function (req, res) {
-  res.send(createTemp(container[req.params.article]));
+app.get('/posts/:articleName', function (req, res) {
+  // SELECT * FROM article WHERE title = '\'; DELETE WHERE a = \'asdf'
+  pool.query("SELECT * FROM posts WHERE title = $1", [req.params.articleName], function (err, result) {
+    if (err) {
+        res.status(500).send(err.toString());
+    } else {
+        if (result.rows.length === 0) {
+            res.status(404).send('Article not found');
+        } else {
+            var articleData = result.rows[0];
+            res.send(createTemplate(articleData));
+        }
+    }
+  });
 });
+
 
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
