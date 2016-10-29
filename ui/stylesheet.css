@@ -6,24 +6,18 @@ body {
 	background-attachment: fixed;
 }
 
-div
-{
-	margin:0;
-	padding: 0;
-	border:0;
-	color:black;s
-}
+
 
 p {
 	color:black;
 	margin:auto;
 	border:0;
 	max-width: 1000px;
-    //height: 100px;
+    
     padding:0 50px 50px 50px;
     font-size:20px;
     line-height: 35px;
-    //border: 1px solid red;
+  
     box-sizing: border-box;
     text-align:justify;
     text-indent: 50px;
@@ -55,11 +49,9 @@ p {
 	
 	left:41px;
 	margin-right: 0;
-	//position: fixed;
+	
 }
-* {
-    box-sizing: border-box;
-}
+
 a{
 	text-decoration: none;
 	color:grey;
@@ -68,10 +60,7 @@ a:hover {
 	text-decoration: underline;
 	color:#29487d;
 }
-h1+p{
-	
-	//margin-top: 150px;
-}
+
 h1:hover
 {
 	color:skyblue;
@@ -87,7 +76,7 @@ h1{
 }
 ul{
         list-style-type:none;
-        //background:rgba(0,0,0,0.7);
+       
         padding:20px 25px;
         display:block;
         margin:0;
