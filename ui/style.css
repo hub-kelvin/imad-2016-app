@@ -15,11 +15,13 @@ text-align: center;
 footer{
     clear: both;
     
-    margin-top: 50px;
+    margin: 50px 0 0 0;
     background-color: #000;
     color:white;
     width:100%;
-            }
+            
+    padding: 35px 10% 50px;
+}
 
 
 
