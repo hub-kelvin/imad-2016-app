@@ -66,18 +66,18 @@ function createTemp(data) {
     return temp;
 }
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'port80index.html'));
 });
 
 
 
 
-app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+app.get('/ui/stylesheet.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'stylesheet.css'));
 });
 
-app.get('/ui/bg.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'bg.jpg'));
+app.get('/ui/bitstory.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'bitstory.png'));
 });
 
 app.get('/ui/madi.png', function (req, res) {
