@@ -68,7 +68,9 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'port80index.html'));
 });
 
-
+app.get('/images/apple-macbook-pro-touchbar.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'images', 'apple-macbook-pro-touchbar.jpg'));
+});
 
 
 app.get('/ui/stylesheet.css', function (req, res) {
