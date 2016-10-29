@@ -54,7 +54,7 @@ function createTemp(data) {
 <html>
     <head>
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">    
-    <link href="/ui/poststyle.css" rel="stylesheet">
+    <link href="/ui/style.css" rel="stylesheet">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${data.title}</title> 
@@ -90,8 +90,8 @@ app.get('/', function (req, res) {
 app.get('/ui/stylesheet.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'stylesheet.css'));
 });
-app.get('/ui/poststyle.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'poststyle.css'));
+app.get('/ui/style.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 app.get('/ui/bitstory.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'bitstory.png'));
