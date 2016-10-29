@@ -7,37 +7,10 @@ text-align: center;
 
 }
 
-.center {
-    text-align: center;
-}
-
-.text-big {
-    font-size: 400%;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.img-medium {
-    height: 200px;
-}
 
 
 
-.name
-{
-	font-size : 70px;
-	color:#848484;
-	font-weight: bold;
-}
 
-
-.about{
-	font-family: sans-serif;
-	font-size: 15px;
-	
-}
 
 footer{
     clear: both;
@@ -46,53 +19,6 @@ footer{
     background-color: #000;
     color:white;
             }
-
-table{
-	 
-	 border-collapse: collapse;
-	 width:75%;
-	 
-}
-th,td{
-	border-bottom: 1px solid black;
-	padding: 15px;
-	text-align: center;
-}
-
-tr:nth-child(even){
-	background-color: #f2f2f2;
-}
-th{
-	background-color: lightgreen;
-	color:white;
-}
-
-.mine{
-	border:1px solid black;
-	padding:15px;
-	background-color: #f2f2f2;
-	color: black;
-
-	position:absolute;
-	
-}
-.custom{
-	border:1px solid black;
-	text-align: center;
-	max-width:12cm;
-	max-height:5cm; 
-	background-color: lightgreen;
-	color:white;
-	padding:50px;
-	font-size:30px;
-	margin:auto;
-}
-.CenterAlignText{
-	border:3px solid green;
-	text-align:center;
-
-}
-
 
 
 
@@ -123,7 +49,7 @@ li a:hover{
 	text-decoration: underline;
 	color:white;
 	cursor: pointer;
-	//background-color: white;
+
 }
 
 
@@ -131,32 +57,7 @@ li a:hover{
 li{float:none;}
 	}
 
-.icons{
-	font-size:15px;
-	font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    color:white;
-	}
 
-.icons:hover{
-	color:black;
-	}
-
-	p {
-	color:black;
-	margin:auto;
-	border:0;
-	max-width: 1000px;
-   
-    padding:0 50px 50px 50px;
-    font-size:20px;
-    line-height: 35px;
-    
-    box-sizing: border-box;
-    text-align:justify;
-    text-indent: 50px;
-}
 h1{
 	margin:auto;
 	border:0;
@@ -167,6 +68,7 @@ h1{
 	text-align:justify;
 	
 }
+
 h4{
 	border:0;
 	max-width: 750px;
@@ -176,53 +78,8 @@ h4{
 }
 
 
-div:hover p{
-
-	display:block;
-}
-
-ul{
-	list-style-type: none;
-	margin:0;
-	padding:0;
-	position: absolute;
-	left:0;
-	top:0;
-	width:100%;
-	background-color: black;
-
-}
-li{
-	float:left;
-}
-li a{
-	text-decoration: none;
-	padding-left:10px;
-	color:white;
-	display: block;
-    padding: 20px 25px;
 
 
-}
-li a:hover{
-	
-	color:black;
-	background-color: white;
-}
 
 
-@media screen and (max-width: 500px){
-li{float:none;}
-	}
 
-.icons{
-	font-size:15px;
-	font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    color:white;
-	}
-
-.icons:hover{
-	color:black;
-	}
