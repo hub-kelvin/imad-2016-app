@@ -51,7 +51,7 @@ p {
 	margin-right: 0;
 	
 }
-a+h1:hover
+h1:hover
 {
 	color:skyblue;
 	cursor: pointer;
