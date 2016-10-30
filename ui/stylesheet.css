@@ -51,6 +51,11 @@ p {
 	margin-right: 0;
 	
 }
+a+h1:hover
+{
+	color:skyblue;
+	cursor: pointer;
+}
 
 a{
 	text-decoration: none;
@@ -73,11 +78,7 @@ h1{
 	text-align:justify;
 }
 
-h1:hover
-{
-	color:skyblue;
-	cursor: pointer;
-}
+
 
 h4{
     border: 0;
