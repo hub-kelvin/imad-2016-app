@@ -68,6 +68,10 @@ ${data.content}
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'port80index.html'));
 });
+app.get('/images/HP-lapotop-Charger.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'images', 'HP-lapotop-Charger.jpg'));
+});
+
 
 app.get('/images/apple-macbook-pro-touchbar.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'images', 'apple-macbook-pro-touchbar.jpg'));
@@ -95,7 +99,7 @@ app.get('/posts/:articleName', function (req, res) {
         res.status(500).send(err.toString());
     } else {
         if (result.rows.length === 0) {
-            res.status(404).send('Article not found');
+            res.status(404).send('404 Post not found');
         } else {
             var articleData = result.rows[0];
             res.send(createTemp(articleData));
