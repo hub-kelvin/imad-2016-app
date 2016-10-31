@@ -28,9 +28,6 @@ app.get('/test-db',function(req,res){
 app.get('/submit', function (req, res) {
   res.send(req.query.Query);
 });
-app.get('/ui/bw.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'bw.jpg'));
-});
 
 
             
@@ -80,7 +77,7 @@ app.get('/images/apple-macbook-pro-touchbar.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'images', 'apple-macbook-pro-touchbar.jpg'));
 });
 app.get('/about', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'about.html'));
 });
 
 app.get('/ui/stylesheet.css', function (req, res) {
