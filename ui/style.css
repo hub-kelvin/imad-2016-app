@@ -66,7 +66,7 @@ p {
     text-indent: 50px;
 }
 h1{
-    margin:175px;
+    margin:175px auto;
 	border:0;
 	max-width: 1000px;
 	box-sizing: border-box;
