@@ -60,6 +60,7 @@ function createTemp(data) {
 <p>
 ${data.content}
 </p>
+<footer>made with &hearts; by Kelvin</footer>  
 </body>
 <footer>made with &hearts; by Kelvin</footer>    
 </html>`;
