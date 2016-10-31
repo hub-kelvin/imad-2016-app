@@ -2,7 +2,7 @@
 <html>
     <head>
         
-    <link href="/ui/style.css" rel="stylesheet">
+    <link href="about_css.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
@@ -15,8 +15,8 @@
 body{
     text-align:center;
     font-family: 'Raleway', sans-serif;
-    margin:auto;
-    max-width:930px;
+    margin:0 auto;
+    
 }  
 h1{
 font-weight:bold;
@@ -28,7 +28,7 @@ hr {
     margin-top:-70px;
 }
 div{display:block;}
-.block{width:100%;border:1px solid;}
+table{width:100%;border:1px solid;}
 @media screen and (max-width: 500px){
 li{float:none;}
 h1{margin-top:250px;margin-bottom:20}
@@ -40,15 +40,18 @@ table{
     
 }
 th{
-    text-align:center;
+    padding:5px;
+    text-align:right;
 }
+td{padding:5px;}
 .myText {
     text-align:right;
 }
 .font-weight-m {
-    font-weight:500;
+    
     text-align:justify;
 }
+div{max-width:500px;margin-left:auto;margin-right:auto;}
 
 </style>
 <title>About me</title> 
@@ -63,40 +66,105 @@ th{
 <li><a href="">Contact</a></li>
 </ul>
 
-
+<div>
 <h1 style="font-family: 'Raleway', sans-serif;">Kelvin Jose</h1>
 <hr style="width:50%">
-<h2>Young web designer</h2>
-
+<h2>A Young Web Designer</h2>
 <table>
     <tbody>
-       
-    <tr>
-        <td class="font-weight-m"><h3>Date of birth</h3></td><td class="myText"><h3>May 23, 1997</h3></td>
+ <tr><td class="font-weight-m"><h3 style="text-decoration: underline">A brief about me</h3></td></tr>
+   
+    <tr> 
+        <td class="font-weight-m">Date of birth</td><td class="myText">May 23, 1997</td>
         </tr>
         
     <tr>
-        <td class="font-weight-m"><h3>E-mail</h3></td><td class="myText"><h3>kelvinkonoor@gmail.com</h3></td>
+        <td class="font-weight-m">E-mail</td><td class="myText">kelvinkonoor@gmail.com</td>
         </tr>
         
     <tr>
-        <td class="font-weight-m"><h3>Address</h3></td><td class="myText"><h3>Konoor(H),Josegiri P.O,Idukki,Kerala,India</h3></td>
+        <td class="font-weight-m">Address</td><td class="myText">Konoor(H),Josegiri P.O,Idukki,Kerala,India</td>
         </tr>
         
     <tr>
-        <td class="font-weight-m"><h3>Phone</h3></td><td class="myText"><h3>+91 9847 22 1930</h3></td>
+        <td class="font-weight-m">Phone</td><td class="myText">+91 9847 22 1930</td>
+        </tr> 
+        <br>
+        </tbody></table><br>
+        <table><tbody>
+        <tr><td class="font-weight-m"><h3 style="text-decoration: underline">Education</h3></td></tr>
+        <tr>
+        <td class="font-weight-m">Name</td><td class="myText">Bachelor in Computer Applications</td>
         </tr>
+        
+    <tr>
+        <td class="font-weight-m">Address</td><td class="myText">SCMAS,Mullakkanam</td>
+        </tr>
+        
+    <tr>
+    <tr>
+        <td class="font-weight-m">Period</td><td class="myText">2014-2017</td>
+        </tr>
+        
+    </tbody></table><br>
+    <table><tbody>
+    <tr><td class="font-weight-m"><h3 style="text-decoration: underline">Professional skills </h3></td></tr>
+    <tr>
+        <td class="font-weight-m">HTML & CSS3 </td><td class="myText">75%</td>
+        </tr>
+        
+    <tr>
+    <tr>
+        <td class="font-weight-m">JavaScript </td><td class="myText">65%</td>
+        </tr>
+        
+    <tr>
+    <tr>
+        <td class="font-weight-m">Java</td><td class="myText">70%</td>
+        </tr>
+        
+    <tr>
+    <tr>
+        <td class="font-weight-m">C/C++ </td><td class="myText">70%</td>
+        </tr>
+        
+    <tr>
+    <tr>
+        <td class="font-weight-m">Python </td><td class="myText">50%</td>
+        </tr>
+        
+    </tbody></table><br>
+    <table><tbody>
+    <tr><td class="font-weight-m"><h3 style="text-decoration: underline">Additional skills </h3></td></tr>
+    <tr>
+        <td class="font-weight-m">Commmunication </td><td class="myText">90%</td>
+        </tr>
+        
+    <tr>
+    <tr>
+        <td class="font-weight-m">English </td><td class="myText">90%</td>
+        </tr>
+        
+    <tr>
+    <tr>
+        <td class="font-weight-m">Humor </td><td class="myText">80%</td>
+        </tr>
+        
+    </tbody></table><br>
+    
+    <table><tbody>
+    <tr><td><h3 style="text-decoration: underline">Hobbies & Interest </h3></td></tr>
+    <tr><td class="font-weight-m">Music</td></tr>
+    <tr><td class="font-weight-m">Travelling</td></tr>
+    <tr><td class="font-weight-m">Photography</td></tr>
+    <tr><td class="font-weight-m">Motorsport</td></tr>
+    <tr><td class="font-weight-m">Video Games</td></tr>
         </tbody>
     </table>
     
-<p style="letter-spacing:6px;">
-Student | Traveller | Auto-Enthusiast	
-</p>
+</div>
 
-<div class="footer">
-made with 
-<i class="material-icons" style="color:red;font-size:11px;">favorite</i> by Kelvin</div>
 </body>
-   
+ <footer>made with &hearts; by Kelvin</footer>  
 
 </html>
