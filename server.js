@@ -77,7 +77,9 @@ app.get('/images/HP-lapotop-Charger.jpg', function (req, res) {
 app.get('/images/apple-macbook-pro-touchbar.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'images', 'apple-macbook-pro-touchbar.jpg'));
 });
-
+app.get('/about', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+});
 
 app.get('/ui/stylesheet.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'stylesheet.css'));
