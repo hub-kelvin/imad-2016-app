@@ -46,25 +46,23 @@ li a:hover{
 }
 
 
-@media screen and (max-width: 500px){
-li{float:none;}
-h1{margin-top:230px;}
-	}
+
 
 p {
 	color:black;
 	margin:auto;
 	border:0;
 	max-width: 1000px;
-    //height: 100px;
+   
     padding:0 50px 50px 50px;
     font-size:20px;
     line-height: 35px;
-    //border: 1px solid red;
+    
     box-sizing: border-box;
     text-align:justify;
     text-indent: 50px;
 }
+
 h1{
     margin:175px auto;
 	border:0;
@@ -99,5 +97,7 @@ img {
 }
 
 
-
-
+@media screen and (max-width: 500px){
+li{float:none;}
+h1{margin-top:230px;}
+}
