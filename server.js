@@ -80,7 +80,9 @@ app.get('/images/apple-macbook-pro-touchbar.jpg', function (req, res) {
 app.get('/about', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'about.html'));
 });
-
+app.get('/contact', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'contact.html'));
+});
 app.get('/ui/stylesheet.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'stylesheet.css'));
 });
