@@ -61,8 +61,9 @@ function createTemp(data) {
 ${data.content}
 </p>
 
+${data.foot} 
 </body>
-${data.foot}    
+   
 </html>`;
     return temp;
 }
