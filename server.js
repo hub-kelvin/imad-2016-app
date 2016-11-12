@@ -15,16 +15,7 @@ app.get('/submit', function (req, res) {
   res.send(req.query.Search);
 });
 var pool = new Pool(config);
-app.get('/test-db',function(req,res){
-    pool.query('SELECT *FROM ARTICLE',function(err,result){
-        if (err) {
-            res.status(500).send(err.toString());
-        }
-        else {
-            res.send(JSON.stringify(result.rows));
-        }
-    });
-});
+
 app.get('/submit', function (req, res) {
   res.send(req.query.Query);
 });
