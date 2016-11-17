@@ -81,6 +81,9 @@ app.get('/', function (req, res) {
 app.get('/images/HP-lapotop-Charger.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'images', 'HP-lapotop-Charger.jpg'));
 });
+app.get('/ui/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+});
 
 function hash (input, salt) {
     // How do we create a hash?
