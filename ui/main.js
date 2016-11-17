@@ -159,7 +159,10 @@ function loadArticles () {
     request.send(null);
 }
 
-
+function helloo () {
+    alert("hello world");
+}
+helloo();
 // The first thing to do is to check if the user is logged in!
 loadLogin();
 
