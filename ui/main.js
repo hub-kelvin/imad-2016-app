@@ -26,7 +26,7 @@ input_btn.onclick = function(){
 
 };
 function loadLoginForm () {
-    alert("dfsdgfD")
+    
     var loginHtml = `
         <h3>Login/Register to unlock awesome features</h3>
         <input type="text" id="username" placeholder="username" />
@@ -162,7 +162,7 @@ function loadArticles () {
 function helloo () {
     alert("hello world");
 }
-helloo();
+
 // The first thing to do is to check if the user is logged in!
 loadLogin();
 
