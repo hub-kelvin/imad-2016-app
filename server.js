@@ -71,7 +71,7 @@ ${data.content}
           <script type="text/javascript" src="/ui/article.js"></script>
 
 </body>
-  
+<footer> made with &hearts; by Kelvin</footer>  
 </html>`;
     return temp;
 }
