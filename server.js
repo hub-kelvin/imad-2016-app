@@ -52,7 +52,7 @@ function createTemp(data) {
 <li><a href="">About</a></li>
 </ul>
 
-<div class="main">
+
 <h1>${data.heading}</h1>
 
 <img src='${data.link}'>
@@ -68,7 +68,7 @@ ${data.content}
               <div id="comments">
                 <center>Loading comments...</center>
               </div>
-          </div></div>
+          </div>
           <script type="text/javascript" src="/ui/article.js"></script>
 
 </body>
