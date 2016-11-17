@@ -71,7 +71,7 @@ ${data.content}
           <script type="text/javascript" src="/ui/article.js"></script>
 
 </body>
-  ${data.foot} 
+  
 </html>`;
     return temp;
 }
