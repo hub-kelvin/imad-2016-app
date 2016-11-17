@@ -74,9 +74,12 @@ ${data.content}
   
 </html>`;
     return temp;
-}
+}/*
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'port80index.html'));
+});*/
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 app.get('/images/HP-lapotop-Charger.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'images', 'HP-lapotop-Charger.jpg'));
