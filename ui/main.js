@@ -13,16 +13,16 @@ function loadLoginForm () {
         <div id="wrap">
   <div id="regbar">
     <div id="navthing">
-      <h2><a href="#" id="loginform">Login</a> | <a href="#">Register</a></h2>
+      <h2><inline id="loginform">Login</inline> | <inline>Register</inline></h2>
     <div class="login">
       <div class="arrow-up"></div>
       <div class="formholder">
         <div class="randompad">
            <fieldset>
              <label name="username">Username</label>          
-	<input type="text" ></input>
+	<input type="text" id="username"></input>
              <label name="password">Password</label>
-             <input type="password" />
+             <input type="password" id="password"/>
              <input type="submit" id="login_btn" value="Login" />
         <input type="submit" id="register_btn" value="Register" />
  
