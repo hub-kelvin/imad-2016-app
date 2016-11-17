@@ -69,9 +69,9 @@ ${data.content}
               </div>
           </div>
           <script type="text/javascript" src="/ui/article.js"></script>
-${data.foot} 
+
 </body>
-  
+  ${data.foot} 
 </html>`;
     return temp;
 }
