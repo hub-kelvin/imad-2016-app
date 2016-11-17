@@ -54,7 +54,7 @@ ${data.content}
 
 ${data.foot} 
 </body>
-  <footer>made with &hearts; by Kelvin</footer> 
+  
 </html>`;
     return temp;
 }
