@@ -1,6 +1,6 @@
 
 function loadLoginForm () {
-    /*
+    
     var loginHtml = `
         <h3>Login/Register to unlock awesome features</h3>
         <input type="text" id="username" placeholder="username" />
@@ -8,31 +8,8 @@ function loadLoginForm () {
         <br/><br/>
         <input type="submit" id="login_btn" value="Login" />
         <input type="submit" id="register_btn" value="Register" />
-        `;*/
-        var loginHtml = `
-        <div id="wrap">
-  <div id="regbar">
-    <div id="navthing">
-      <h2><inline id="loginform">Login</inline> | <inline>Register</inline></h2>
-    <div class="login">
-      <div class="arrow-up"></div>
-      <div class="formholder">
-        <div class="randompad">
-           <fieldset>
-             <label name="username">Username</label>          
-	<input type="text" id="username"></input>
-             <label name="password">Password</label>
-             <input type="password" id="password"/>
-             <input type="submit" id="login_btn" value="Login" />
-        <input type="submit" id="register_btn" value="Register" />
- 
-           </fieldset>
-        </div>
-      </div>
-    </div>
-    </div>
-  </div>
-</div>`;
+        `;
+       
     document.getElementById('login_area').innerHTML = loginHtml;
     
     // Submit username/password to login
