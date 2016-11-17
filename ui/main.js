@@ -116,7 +116,7 @@ function loadLoggedInUser (username) {
 }
 
 function loadLogin () {
-    alert("dsfdsfdsf");
+    
     // Check if the user is already logged in
     var request = new XMLHttpRequest();
     request.onreadystatechange = function () {
