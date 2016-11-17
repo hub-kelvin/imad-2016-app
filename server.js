@@ -222,9 +222,12 @@ app.post('/submit-comment/:articleName', function (req, res) {
         res.status(403).send('Only logged in users can comment');
     }
 });
-
+/*
 app.get('/ui/:fileName', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', req.params.fileName));
+});*/
+app.get('/ui/login-style', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'login-style.css'));
 });
 app.get('/images/apple-macbook-pro-touchbar.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'images', 'apple-macbook-pro-touchbar.jpg'));
