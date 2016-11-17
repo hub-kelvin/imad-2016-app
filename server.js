@@ -52,7 +52,7 @@ function createTemp(data) {
 <li><a href="">About</a></li>
 </ul>
 
-<div class="main>"
+<div class="main">
 <h1>${data.heading}</h1>
 
 <img src='${data.link}'>
