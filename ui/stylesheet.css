@@ -138,3 +138,6 @@ ul{
             li a{padding:0 0 0 200px;}
             li inline{padding:0 0 0 200px;} 
             }
+.loginarea {
+    margin:0 auto;
+}
