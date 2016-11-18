@@ -4,7 +4,7 @@ $('#loginform').click(function(){
   $(this).toggleClass('green');
 });
 
-
+/*
 $(document).mouseup(function (e)
 {
     var container = $(".login");
@@ -17,3 +17,4 @@ $(document).mouseup(function (e)
     }
 });
 
+*/
