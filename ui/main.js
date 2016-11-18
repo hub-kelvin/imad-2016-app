@@ -19,11 +19,11 @@ function loadLoginForm () {
        <div class="randompad"> 
          
              <label name="username">Username</label>          
-	<input type="text" ></input>
+	<input type="text" id="username"></input>
              <label name="password">Password</label>
-             <input type="password" />
-             <input type="submit" value="Login" />
- 
+             <input type="password" id="password"/>
+             <input type="submit" value="Login" id="login_btn"/></br>
+            <input type="submit" value="Register" id="register_btn"/>
       
   </div>
 </div>
