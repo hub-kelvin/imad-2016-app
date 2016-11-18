@@ -20,3 +20,11 @@ $(document).mouseup(function (e)
     }
 });
 */
+$(document).ready(function(){
+    $("#loginform").click(function(){
+        $("login").hide();
+    });
+    $("#loginform").click(function(){
+        $("login").show();
+    });
+});
