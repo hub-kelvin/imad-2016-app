@@ -13,7 +13,7 @@ function loadLoginForm () {
     
     var loginHtml = 
         //  <h2><inline class="test" id="loginform" onclick="showLogin()">Login</inline></h2>
-       `   
+        `   
     <div class="login" id="login">
     
      <div class="formholder">
