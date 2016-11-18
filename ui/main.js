@@ -111,7 +111,7 @@ function loadLoggedInUser (username) {
     loginArea.innerHTML = 
         //<h3> Hi <i>${username}</i></h3>
         `
-       <li> <a href="/logout">Logout</a><li>
+       <li><a href="/logout">Logout</a><li>
     `;
 }
 
