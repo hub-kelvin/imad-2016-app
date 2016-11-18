@@ -12,9 +12,9 @@ function loadLoginForm () {
     */
     
     var loginHtml = `
-          <h2><inline class="test" id="loginform">Login</inline></h2>
+          <h2><inline class="test" id="loginform" onclick="showLogin()">Login</inline></h2>
           
-    <div class="login">
+    <div class="login" id="login">
     
      <div class="formholder">
      
@@ -32,6 +32,9 @@ function loadLoginForm () {
 </div>
 
     `;
+    function showLogin () {
+        document.getElementById("loginform").style.display = 'block';
+    }
     document.getElementById('login_area').innerHTML = loginHtml;
     
     // Submit username/password to login
