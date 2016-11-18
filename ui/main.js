@@ -12,29 +12,22 @@ function loadLoginForm () {
     */
     
     var loginHtml = `
-    <div id="wrap">
-  <div id="regbar">
-    <div id="navthing">
-      <h2><a href="">Login</a> | <a href="">Register</a></h2>
+          <h2><a href="#" id="loginform">Login</a> | <a href="#">Register</a></h2>
     <div class="login">
-      <div class="arrow-up"></div>
-      <div class="formholder">
-        <div class="randompad">
-           <fieldset>
+    
+     <div class="formholder">
+       <div class="randompad"> 
+         
              <label name="username">Username</label>          
 	<input type="text" ></input>
              <label name="password">Password</label>
              <input type="password" />
-             <input type="submit" value="Login" id="login_btn"/><br/>
-             <input type="submit" value="Register" id="register_btn"/>
-                
-           </fieldset>
-        </div>
-      </div>
-    </div>
-    </div>
+             <input type="submit" value="Login" />
+ 
+      
   </div>
 </div>
+
 
     `;
     document.getElementById('login_area').innerHTML = loginHtml;
