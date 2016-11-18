@@ -139,6 +139,6 @@ ul{
             li inline{padding:0 0 0 200px;} 
             }
 .loginarea {
-    
+    max-width:350px;
     margin:0 auto;
 }
