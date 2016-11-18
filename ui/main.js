@@ -12,7 +12,7 @@ function loadLoginForm () {
     */
     
     var loginHtml = `
-          <h2><a href="#" id="loginform">Login</a> | <a href="#">Register</a></h2>
+          <h2><a href="#" id="loginform">Login</a></h2>
     <div class="login">
     
      <div class="formholder">
