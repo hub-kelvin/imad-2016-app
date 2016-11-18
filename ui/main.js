@@ -32,9 +32,7 @@ function loadLoginForm () {
 </div>
 
     `;
-    function showLogin () {
-        document.getElementById("loginform").style.display = 'block';
-    }
+ 
     document.getElementById('login_area').innerHTML = loginHtml;
     
     // Submit username/password to login
@@ -158,6 +156,9 @@ function loadArticles () {
     request.open('GET', '/get-articles', true);
     request.send(null);
 }
+   function showLogin () {
+        document.getElementById("loginform").style.display = 'block';
+    }
 
 function helloo () {
     alert("hello world");
