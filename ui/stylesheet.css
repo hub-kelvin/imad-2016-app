@@ -139,5 +139,6 @@ ul{
             li inline{padding:0 0 0 200px;} 
             }
 .loginarea {
+    position:relative;
     margin:0 auto;
 }
