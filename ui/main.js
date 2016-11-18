@@ -113,6 +113,7 @@ function loadLoggedInUser (username) {
         `
        <li><a href="/logout">Logout ${username}</a></li>
     `;
+    document.getElementById("login").style.display = 'none';
 }
 
 function loadLogin () {
