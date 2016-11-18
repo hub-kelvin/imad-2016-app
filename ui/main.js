@@ -111,7 +111,7 @@ function loadLoggedInUser (username) {
     loginArea.innerHTML = 
         //<h3> Hi <i>${username}</i></h3>
         `
-        <a href="/logout">Logout</a>
+       <li> <a href="/logout">Logout</a><li>
     `;
 }
 
@@ -171,9 +171,6 @@ function loadArticles () {
       }
     }
 
-function helloo () {
-    alert("hello world");
-}
 
 // The first thing to do is to check if the user is logged in!
 loadLogin();
