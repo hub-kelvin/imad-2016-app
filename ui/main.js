@@ -162,9 +162,9 @@ function loadArticles () {
 
 
    function showLogin () {
-      if (document.getElementById("login").style.display === 'none') {
+      if (document.getElementById("login").style.display === 'none' && document.getElementById("login").innerHTML === 'Login') {
           document.getElementById("login").style.display = 'block';
-          document.getElementById("login").slidedown();
+         
       }
       else
       {
