@@ -34,7 +34,7 @@ function loadLoginForm () {
     `;
  
     document.getElementById('login_area').innerHTML = loginHtml;
-    
+     document.getElementById("loginform").style.display = 'none';
     // Submit username/password to login
     var submit = document.getElementById('login_btn');
     submit.onclick = function () {
