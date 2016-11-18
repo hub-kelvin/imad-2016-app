@@ -11,13 +11,13 @@ function loadLoginForm () {
         `;
     */
     
-    var loginHtml = `
+    var loginHtml = /*
           <h2><inline class="test" id="loginform">Login</inline></h2>
     <div class="login">
     
      <div class="formholder">
-       <div class="randompad"> 
-         
+       <div class="randompad"> */
+         `
              <label name="username">Username</label>          
 	<input type="text" id="username"></input>
              <label name="password">Password</label>
