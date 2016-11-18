@@ -7,6 +7,7 @@ $('#loginform').click(function(){
 $( "#loginform" ).click(function() {
   alert( "Handler for .click() called." );
 });
+/*
 $(document).mouseup(function (e)
 {
     var container = $(".login");
@@ -18,3 +19,4 @@ $(document).mouseup(function (e)
         $('#loginform').removeClass('green');
     }
 });
+*/
