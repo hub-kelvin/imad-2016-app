@@ -34,7 +34,7 @@ function loadLoginForm () {
     `;
  
     document.getElementById('login_area').innerHTML = loginHtml;
-    document.getElementById("loginform").style.display = 'block';
+    document.getElementById("login").style.display = 'none';
    
     // Submit username/password to login
     var submit = document.getElementById('login_btn');
@@ -158,11 +158,11 @@ function loadArticles () {
     request.send(null);
 }
 
-/*
+
    function showLogin () {
         document.getElementById("login").style.display = 'block';
     }
-*/
+
 function helloo () {
     alert("hello world");
 }
