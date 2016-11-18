@@ -1,12 +1,10 @@
-/*
+
 $('#loginform').click(function(){
-  $('.login').fadeToggle('slow');
+  $('#login').fadeToggle('slow');
   $(this).toggleClass('green');
 });
-*/
-$( "#loginform" ).click(function() {
-  alert( "Handler for .click() called." );
-});
+
+
 /*
 $(document).mouseup(function (e)
 {
@@ -25,7 +23,5 @@ $(document).ready(function(){
     $("#loginform").click(function(){
         $("#login").show();
     });
-      $("#loginform").click(function(){
-        $("#login").hide();
-    });
+
 });
