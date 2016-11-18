@@ -109,7 +109,7 @@ ul{
           display:inline;
           
           }
-          li a{
+          li a,inline{
           
           text-decoration:none;
           color:black;
