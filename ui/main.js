@@ -162,7 +162,7 @@ function loadArticles () {
 
 
    function showLogin () {
-      if (document.getElementById("login").style.display === 'none' && document.getElementById("login").innerHTML == 'Login') {
+      if (document.getElementById("login").style.display === 'none' && document.getElementById("loginform").innerHTML === 'Login') {
           document.getElementById("login").style.display = 'block';
          
       }
