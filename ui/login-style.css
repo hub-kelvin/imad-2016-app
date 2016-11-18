@@ -68,7 +68,7 @@ fieldset {
   border-radius: 5px;
 }
 .formholder input[type="submit"]:hover {
-  background: ##ffffff;
+  background: #ffffff;
   color:#000000;
 }
 
