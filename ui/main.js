@@ -157,14 +157,7 @@ function loadArticles () {
     request.open('GET', '/get-articles', true);
     request.send(null);
 }
-$(document).ready(function(){
-    $("#loginform").click(function(){
-        $("login").hide();
-    });
-    $("#loginform").click(function(){
-        $("login").show();
-    });
-});
+
 /*
    function showLogin () {
         document.getElementById("login").style.display = 'block';
