@@ -34,7 +34,7 @@ function loadLoginForm () {
     `;
  
     document.getElementById('login_area').innerHTML = loginHtml;
-     document.getElementById("login").style.display = 'none';
+     //document.getElementById("login").style.display = 'none';
     // Submit username/password to login
     var submit = document.getElementById('login_btn');
     submit.onclick = function () {
@@ -156,10 +156,19 @@ function loadArticles () {
     request.open('GET', '/get-articles', true);
     request.send(null);
 }
+$(document).ready(function(){
+    $("#loginform").click(function(){
+        $("login").hide();
+    });
+    $("#loginform").click(function(){
+        $("login").show();
+    });
+});
+/*
    function showLogin () {
         document.getElementById("login").style.display = 'block';
     }
-
+*/
 function helloo () {
     alert("hello world");
 }
