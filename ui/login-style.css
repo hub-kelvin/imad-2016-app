@@ -78,4 +78,7 @@ fieldset {
 .green {
   color: #1abc9c;
 }
-
+.test:hover{
+    cursor:pointer;
+    color:skyblue;
+}
