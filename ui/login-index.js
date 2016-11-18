@@ -5,7 +5,6 @@ $('#loginform').click(function(){
 });
 
 
-/*
 $(document).mouseup(function (e)
 {
     var container = $(".login");
@@ -17,11 +16,4 @@ $(document).mouseup(function (e)
         $('#loginform').removeClass('green');
     }
 });
-*/
-$(document).ready(function(){
-  
-    $("#loginform").click(function(){
-        $("#login").show();
-    });
 
-});
