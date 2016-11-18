@@ -38,7 +38,7 @@ fieldset {
   background: #ecf0f1;
   width: 350px;
   border-radius: 5px;
-  padding-top: 25px;
+  padding-top: 5px;
 }
 .formholder input[type="text"], .formholder input[type="password"] {
   padding: 7px 5px;
