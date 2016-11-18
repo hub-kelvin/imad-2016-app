@@ -135,5 +135,6 @@ ul{
             }
              @media(max-width:700px){
             li{display:block;}
-            li a,li inline{padding:0 0 0 200px;} 
+            li a{padding:0 0 0 200px;}
+            li inline{padding:0 0 0 200px;} 
             }
