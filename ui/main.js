@@ -35,6 +35,7 @@ function loadLoginForm () {
     </div>
   </div>
 </div>
+</div>
     `;
     document.getElementById('login_area').innerHTML = loginHtml;
     
