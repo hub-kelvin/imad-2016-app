@@ -15,7 +15,7 @@ function loadLoginForm () {
     <div id="wrap">
   <div id="regbar">
     <div id="navthing">
-      <h2><a href="/login" id="loginform">Login</a> | <a href="create-user">Register</a></h2>
+      <h2>Login</h2> | <h2>Register</h2>
     <div class="login">
       <div class="arrow-up"></div>
       <div class="formholder">
