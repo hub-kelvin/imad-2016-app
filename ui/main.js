@@ -160,7 +160,13 @@ function loadArticles () {
 
 
    function showLogin () {
-        document.getElementById("login").style.display = 'block';
+      if (document.getElementById("login").style.display=='block') {
+          document.getElementById("login").style.display = 'none';
+      }
+      else
+      {
+          document.getElementById("login").style.display = 'block';
+      }
     }
 
 function helloo () {
