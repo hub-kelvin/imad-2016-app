@@ -25,8 +25,8 @@ function loadLoginForm () {
 	<input type="text" ></input>
              <label name="password">Password</label>
              <input type="password" />
-             <input type="submit" value="Login" /><br/>
-             <input type="submit" value="Register" />
+             <input type="submit" value="Login" id="login_btn"/><br/>
+             <input type="submit" value="Register" id="register_btn"/>
                 
            </fieldset>
         </div>
