@@ -20,7 +20,7 @@ fieldset {
 .login {
   position: relative;
   width: 350px;
-  display: none;
+  display: block;
 }
 
 .arrow-up {
