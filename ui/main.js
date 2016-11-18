@@ -15,9 +15,10 @@ function loadLoginForm () {
           <h2><inline class="test" id="loginform">Login</inline></h2>
     <div class="login">
     
-     <div class="formholder">
-       <div class="randompad"> */
-         `
+     <div class="formholder">*/
+     
+       <div class="randompad"> 
+         
              <label name="username">Username</label>          
 	<input type="text" id="username"></input>
              <label name="password">Password</label>
@@ -25,8 +26,8 @@ function loadLoginForm () {
              <input type="submit" value="Login" id="login_btn"/></br>
             <input type="submit" value="Register" id="register_btn"/>
       
-  </div>
-</div>
+
+
 </div>
 
     `;
