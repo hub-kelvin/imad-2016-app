@@ -117,7 +117,7 @@ ul{
           font-size:20px;
 
           }
-          li a:hover{
+          li a:hover,inline:hover{
           	color:skyblue;
             text-decoration: underline;
             cursor: pointer;
