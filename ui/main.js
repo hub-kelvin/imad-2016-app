@@ -33,7 +33,7 @@ function loadLoginForm () {
 
     `;
     function showLogin () {
-        document.getElementById("login").style.display = 'block';
+        document.getElementById("loginform").style.display = 'block';
     }
     document.getElementById('login_area').innerHTML = loginHtml;
     
