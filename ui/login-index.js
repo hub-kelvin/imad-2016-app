@@ -1,9 +1,9 @@
-
+/*
 $('#loginform').click(function(){
   $('#login').fadeToggle('slow');
   $(this).toggleClass('green');
 });
-
+*/
 /*
 $(document).mouseup(function (e)
 {
