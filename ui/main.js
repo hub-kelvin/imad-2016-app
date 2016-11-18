@@ -19,7 +19,7 @@ function loadLoginForm () {
      <div class="formholder">
      
        <div class="randompad"> 
-         
+            <h2>Login / Register</h2>
              <label name="username">Username</label>          
 	<input type="text" id="username"></input>
              <label name="password">Password</label>
