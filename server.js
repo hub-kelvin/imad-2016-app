@@ -64,9 +64,11 @@ ${data.content}
 
               <h4>Comments</h4>
               <div id="comment_form" style="max-width:600px">
+               <center>Loading comments...</center>
               </div>
+             
               <div id="comments">
-                <center>Loading comments...</center>
+               
                 
         
               </div>
