@@ -36,7 +36,7 @@
     
     margin:0 auto;
     border-radius: 3px;
-  border: 2px solid #ccc;
+    border: 2px solid #ccc;
 }
 @media (max-width:700px ) {
     .comment-area {max-width:400px;}
