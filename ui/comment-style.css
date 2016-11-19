@@ -38,6 +38,9 @@
     border-radius: 3px;
     border: 2px solid #ccc;
 }
+.sbtn {background:black;color:white;padding:10px 25px;border:none;cursor:pointer;}
+.sbtn:hover {background:white;color:black;border:1px solid black;
+}
 @media (max-width:700px ) {
     .comment-area {max-width:400px;}
 }
