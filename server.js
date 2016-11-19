@@ -61,9 +61,9 @@ function createTemp(data) {
 ${data.content}
 </p>
 
-
+            <div class="comment-area" style="max-width:600px">    
               <h4>Comments</h4>
-              <div id="comment_form" style="max-width:600px">
+              <div id="comment_form" >
                <center>Loading comments...</center>
               </div>
              
@@ -72,7 +72,7 @@ ${data.content}
                 
         
               </div>
-          
+          </div>
           <script type="text/javascript" src="/ui/article.js"></script>
 
 </body>
