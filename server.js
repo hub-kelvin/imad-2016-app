@@ -63,12 +63,12 @@ ${data.content}
 
 <hr/>
               <h4>Comments</h4>
-              <div id="comment_form">
+              <div id="comment_form" style="max-width:600px">
               </div>
               <div id="comments">
                 <center>Loading comments...</center>
                 
-        <span id="comments"></span>
+        
               </div>
           
           <script type="text/javascript" src="/ui/article.js"></script>
