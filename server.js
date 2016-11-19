@@ -88,7 +88,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'index.html'));
 });*/
 app.get('/images/:image', function (req, res) {
-  res.sendFile(path.join(__dirname, 'images', 'image'));
+  res.sendFile(path.join(__dirname, 'images', req.params.fileName));
 });
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
