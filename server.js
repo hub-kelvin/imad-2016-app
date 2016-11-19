@@ -38,7 +38,7 @@ function createTemp(data) {
     <head>
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">    
     <link href="/ui/style.css" rel="stylesheet">
-    
+     <link href="/ui/comment-style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${data.title}</title> 
 </head>
@@ -66,9 +66,17 @@ ${data.content}
               <div id="comment_form">
               </div>
               <div id="comments">
-                <center>Loading comments...</center>
+                // <center>Loading comments...</center>
+                 <div class="dialogbox">
+    <div class="body">
+      <span class="tip tip-down"></span>
+      <div class="message">
+        <span id="comments"></span>
+      </div>
+    </div>
+  </div>
               </div>
-          </div>
+          
           <script type="text/javascript" src="/ui/article.js"></script>
 
 </body>
