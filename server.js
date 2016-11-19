@@ -60,6 +60,8 @@ function createTemp(data) {
 <p>
 ${data.content}
 </p>
+<br>
+<br>
 <hr>
             <div  style="max-width:600px;margin:0 auto;">    
               <h4>Comments</h4>
