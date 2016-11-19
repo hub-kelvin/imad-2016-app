@@ -3,7 +3,7 @@ var currentArticleTitle = window.location.pathname.split('/')[2];
 function loadCommentForm () {
     var commentFormHtml = `
         <h5>Submit a comment</h5>
-       <textarea clas="comment-area" id="comment_text" rows="5" cols="100" placeholder="Enter your comment here..."></textarea>
+       <textarea class="comment-area" id="comment_text" rows="5" cols="100" placeholder="Enter your comment here..."></textarea>
      
                  <center>Loading comments...</center>
                 
