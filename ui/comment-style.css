@@ -34,7 +34,7 @@
 }
 .comment-area{
     max-width:700px;
-    height:auto;
+    margin:0 auto;
     border-radius: 3px;
   border: 5px solid #ccc;
 }
