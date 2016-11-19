@@ -64,7 +64,7 @@ ${data.content}
 <br>
 <hr>
             <div  style="max-width:600px;margin:0 auto;">    
-              <h4>Comments</h4>
+              <h3>Comments</h3>
               <div id="comment_form">
                <center>Loading comments...</center>
               </div>
