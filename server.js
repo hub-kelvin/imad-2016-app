@@ -90,9 +90,13 @@ app.get('/', function (req, res) {
 app.get('/images/:image', function (req, res) {
   res.sendFile(path.join(__dirname, 'images', req.params.image));
 });
-app.get('/ui/main.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+app.get('/ui/:file', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', req.params.file));
 });
+
+// app.get('/ui/main.js', function (req, res) {
+//   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+// });
 
 function hash (input, salt) {
     // How do we create a hash?
@@ -234,31 +238,30 @@ app.get('/ui/:fileName', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', req.params.fileName));
 });
 
-app.get('/images/apple-macbook-pro-touchbar.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'images', 'apple-macbook-pro-touchbar.jpg'));
-});
+
 app.get('/about', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'about.html'));
 });
 app.get('/contact', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'contact.html'));
-}); 
-app.get('/ui/stylesheet.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'stylesheet.css'));
-});
-app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
-});
-app.get('/ui/custom.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'custom.css'));
-});
-app.get('/ui/bitstory.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'bitstory.png'));
-});
+// }); 
+// app.get('/ui/stylesheet.css', function (req, res) {
+//   res.sendFile(path.join(__dirname, 'ui', 'stylesheet.css'));
+// });
 
-app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
-});
+// app.get('/ui/style.css', function (req, res) {
+//   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+// });
+// app.get('/ui/custom.css', function (req, res) {
+//   res.sendFile(path.join(__dirname, 'ui', 'custom.css'));
+// });
+// app.get('/ui/bitstory.png', function (req, res) {
+//   res.sendFile(path.join(__dirname, 'ui', 'bitstory.png'));
+// });
+
+// app.get('/ui/madi.png', function (req, res) {
+//   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+// });
 
 app.get('/posts/:articleName', function (req, res) {
   // SELECT * FROM article WHERE title = '\'; DELETE WHERE a = \'asdf'
@@ -277,9 +280,9 @@ app.get('/posts/:articleName', function (req, res) {
 });
 
 
-app.get('/ui/main.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
-});
+// app.get('/ui/main.js', function (req, res) {
+//   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+// });
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
