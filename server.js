@@ -90,9 +90,7 @@ app.get('/', function (req, res) {
 app.get('/images/:image', function (req, res) {
   res.sendFile(path.join(__dirname, 'images', req.params.image));
 });
-app.get('/ui/:file', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', req.params.file));
-});
+
 
  app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
