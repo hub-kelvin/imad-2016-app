@@ -39,5 +39,5 @@
   border: 2px solid #ccc;
 }
 @media (max-width:700px ) {
-    .comment-area {max-width:500px;}
+    .comment-area {max-width:400px;}
 }
