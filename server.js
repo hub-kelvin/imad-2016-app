@@ -63,7 +63,7 @@ ${data.content}
 
             <div  style="max-width:600px">    
               <h4>Comments</h4>
-              <div id="comment_form" class="comment-area">
+              <div id="comment_form">
                <center>Loading comments...</center>
               </div>
              
