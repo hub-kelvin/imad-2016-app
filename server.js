@@ -244,24 +244,24 @@ app.get('/about', function (req, res) {
 });
 app.get('/contact', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'contact.html'));
-// }); 
-// app.get('/ui/stylesheet.css', function (req, res) {
-//   res.sendFile(path.join(__dirname, 'ui', 'stylesheet.css'));
-// });
+}); 
+app.get('/ui/stylesheet.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'stylesheet.css'));
+});
 
-// app.get('/ui/style.css', function (req, res) {
-//   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
-// });
-// app.get('/ui/custom.css', function (req, res) {
-//   res.sendFile(path.join(__dirname, 'ui', 'custom.css'));
-// });
-// app.get('/ui/bitstory.png', function (req, res) {
-//   res.sendFile(path.join(__dirname, 'ui', 'bitstory.png'));
-// });
+app.get('/ui/style.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+});
+app.get('/ui/custom.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'custom.css'));
+});
+app.get('/ui/bitstory.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'bitstory.png'));
+});
 
-// app.get('/ui/madi.png', function (req, res) {
-//   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
-// });
+app.get('/ui/madi.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+});
 
 app.get('/posts/:articleName', function (req, res) {
   // SELECT * FROM article WHERE title = '\'; DELETE WHERE a = \'asdf'
@@ -280,9 +280,9 @@ app.get('/posts/:articleName', function (req, res) {
 });
 
 
-// app.get('/ui/main.js', function (req, res) {
-//   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
-// });
+app.get('/ui/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+});
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
