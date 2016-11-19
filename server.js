@@ -94,9 +94,9 @@ app.get('/ui/:file', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', req.params.file));
 });
 
-// app.get('/ui/main.js', function (req, res) {
-//   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
-// });
+ app.get('/ui/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+ });
 
 function hash (input, salt) {
     // How do we create a hash?
