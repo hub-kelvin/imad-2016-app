@@ -87,8 +87,8 @@ app.get('/', function (req, res) {
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'index.html'));
 });*/
-app.get('/images/HP-lapotop-Charger.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'images', 'HP-lapotop-Charger.jpg'));
+app.get('/images/:image', function (req, res) {
+  res.sendFile(path.join(__dirname, 'images', 'image'));
 });
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
