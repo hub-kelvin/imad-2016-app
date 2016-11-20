@@ -74,13 +74,13 @@ ${data.content}
     return temp;
 }
 
-// app.get('/', function (req, res) {
-//   res.sendFile(path.join(__dirname, 'ui', 'kelvin-homepage.html'));
-// });
-
 app.get('/', function (req, res) {
-res.sendFile(path.join(__dirname, 'ui', 'port80index.html'));
+res.sendFile(path.join(__dirname, 'ui', 'kelvin-homepage.html'));
 });
+
+// app.get('/', function (req, res) {
+// res.sendFile(path.join(__dirname, 'ui', 'port80index.html'));
+// });
 
 // app.get('/', function (req, res) {
 //   res.sendFile(path.join(__dirname, 'index.html'));
