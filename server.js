@@ -91,6 +91,9 @@ app.get('/', function (req, res) {
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'index.html'));
 });*/
+app.get('/ui/:fileName', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', req.params.fileName));
+});
 app.get('/images/:image', function (req, res) {
   res.sendFile(path.join(__dirname, 'images', req.params.image));
 });
@@ -236,9 +239,7 @@ app.post('/submit-comment/:articleName', function (req, res) {
     }
 });
 
-app.get('/ui/:fileName', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', req.params.fileName));
-});
+
 
 
 app.get('/about', function (req, res) {
