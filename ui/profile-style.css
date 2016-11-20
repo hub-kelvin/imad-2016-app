@@ -17,6 +17,7 @@ box-shadow: 0px 0px 22px -1px rgba(0,0,0,0.75);
 .main-div{
 	margin-top:49px;
 }
+a {text-decoration:none;color:black;}
 .photo {
 	border-radius: 50%;
     border-width: 1px;
