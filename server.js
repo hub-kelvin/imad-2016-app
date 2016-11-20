@@ -20,18 +20,10 @@ app.use(session({
     cookie: { maxAge: 1000 * 60 * 60 * 24 * 30}
 }));
 
-app.get('/submit', function (req, res) {
-  res.send(req.query.Search);
-});
+
 var pool = new Pool(config);
 
-app.get('/submit', function (req, res) {
-  res.send(req.query.Query);
-});
-
-
-            
-           
+      
 function createTemp(data) {
     var temp=`<!doctype HTML>
 <html>
@@ -81,16 +73,18 @@ ${data.content}
 </html>`;
     return temp;
 }
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'kelvin-homepage.html'));
-});
+
 // app.get('/', function (req, res) {
-//   res.sendFile(path.join(__dirname, 'ui', 'port80index.html'));
+//   res.sendFile(path.join(__dirname, 'ui', 'kelvin-homepage.html'));
 // });
-/*
+
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'index.html'));
-});*/
+res.sendFile(path.join(__dirname, 'ui', 'port80index.html'));
+});
+
+// app.get('/', function (req, res) {
+//   res.sendFile(path.join(__dirname, 'index.html'));
+// });
 app.get('/ui/:fileName', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', req.params.fileName));
 });
