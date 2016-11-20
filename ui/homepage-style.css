@@ -1,0 +1,229 @@
+body{
+	background-color: #f2f2f2;
+	padding-top: 30px;
+}
+.shadow{
+	-webkit-box-shadow: 0px 0px 22px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 22px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 22px -1px rgba(0,0,0,0.75);
+}
+.mydiv {
+    max-width: 1250px;
+    height: 660px;
+    background-color: white;
+    margin: 0 auto;
+    padding-top:40px;
+}
+.titles {
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    margin:0;
+}
+.photo {
+	border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    width: 110px;
+    height: 107px;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    margin:-15px 30px 30px 30px;
+    border:1px solid black;
+}
+.sub-title-header {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+}
+
+a{
+	display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+.text-right{text-align: right;}
+
+.col{}
+
+.head-ul{
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	
+}
+.head-li{
+	float:right;
+	padding:3px;
+	margin-top: -50px;
+	margin-right:20px;
+}
+
+
+
+.social{
+	height:50px;
+	
+
+}
+.bord-right: {
+	border-right: 1px solid grey;
+}
+.full-width{
+	width:100%;
+	margin:25px auto;
+}
+.full-width-bottom{
+	width:100%;
+	margin:70px auto;
+}
+.myphoto{
+	
+	height:500px;
+}
+.myphoto-dimen{
+	margin-top:-700px;
+	margin-left:300px;
+	margin-bottom:100px;
+}
+.vert{
+	margin:auto;
+	margin-top:-625px;
+	margin-left: 50px;
+}
+.menu{
+	height:180px;
+	
+	margin-right:50px;
+	margin-top:70px;
+	padding:25px;
+	border-radius: 50%;
+}
+.menu-dimen{
+	margin:0 auto;
+	
+	
+}
+th{
+	font-family:'Raleway', Helvetica, Arial, sans-serif;
+	padding:50px;
+}
+.foot-img{
+	height:35px;
+	margin-bottom:-10px;
+	margin-right:5px;
+}
+
+.foot-ul{
+	list-style-type: none;
+	margin:0 auto;
+	padding: 0;
+	
+}
+.foot-li{
+	display:inline;
+	margin-left:20px;
+	margin-right:80px;
+	margin-bottom:60px;
+	
+}
+
+@media (max-width:1148px) {
+	.social{height:48px;}
+	.foot-li {margin-right:50px;}
+	.menu-dimen {max-width:1000px;}
+	.head-li{float:right;padding:1px;margin-top: -50px;margin-right:10px;margin:left:0px;}	
+	.menu{height:140px;margin-top:60px;}
+}
+@media(max-width:1028px){
+	.menu{height:140px;margin-top:50px;padding:13px;}
+	.full-width-bottom{margin:50px auto;}
+}
+
+@media (max-width:994px) {.foot-li{margin-right:45px;}}
+@media (max-width:982px) {.foot-li{margin-right:40px;}}
+@media (max-width:987px) {.menu{height:130px;}}
+@media (max-width:947px) {.menu{height:125px;}}
+@media (max-width:954px) {.foot-li{margin-right:35px;}}
+@media (max-width:934px) {.foot-li{margin-right:30px;}}
+@media (max-width:927px) {.menu{height:124px;}}
+@media (max-width:923px) {.menu{height:123px;}}
+
+@media(max-width:914px){
+	.menu{height:120px;margin-top:1px;padding:11px;}
+	.full-width-bottom {margin: 10px auto;}
+	.foot-li {display: block;margin-right:100px;margin-bottom:20px;}
+	.menu-dimen {max-width:400px;}	
+}
+
+@media(max-width:828px){
+	.menu{height:100px;margin-top:40px;padding:9px;}
+}
+
+@media(max-width:770px){
+	.menu-dimen {max-width: 400px;}
+	.social{height:42px;}
+	.foot-li{display: block;}
+	.head-li{margin-top:10px;margin:20px auto;float:left;}
+	.mydiv{height:677px;}
+	.sub-title-header{font-size:16px;}
+	.menu{height: 110px;margin-top: 0px;padding:15px;}
+}
+
+@media(max-width:654px){
+	.menu{height:120px;margin-top:0px;padding:10px;}
+}
+
+
+@media(max-width:550px){
+	.menu{height:100px;margin-top:20px;padding:5px;}
+	.foot-li{display: block;margin-bottom:20px;}
+	.full-width-bottom{margin-bottom:10px;margin-top:10px;}
+	.menu-dimen {max-width:350px;}
+}
+
+@media(max-width:475px) {
+	.titles{font-size:45px;}
+	.social{height:35px;}
+	.head-li{margin:40px auto;}
+	.sub-title-header{font-size:14px;}
+	.menu{height:100px;margin-top:20px;padding:2px;}
+	.foot-li{display: block;margin-bottom:12px; margin-right:80px;}
+	.full-width-bottom{margin-bottom:10px;margin-top:10px;}
+	.full-width{margin:10px 0 10px 0;}
+}
+
+@media(max-width:372px) {
+	.titles{font-size:25px;}
+	.social {height:30px;}
+	.menu {margin-top:35px;}
+	.menu-dimen {max-width: 600px;}
+	.foot-li {margin-bottom:23px;}
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 40%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
