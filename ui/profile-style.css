@@ -87,11 +87,11 @@ hr{
 	opacity: 0.4;	
 }	
 .header-hr{margin-top:180px;}
-a,.button {
+.button {
     background-color: #4CAF50; 
     border: none;
     color: white;
-    padding: 6px 14px;
+    padding: 12px 27px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -99,6 +99,7 @@ a,.button {
     margin: 4px 2px;
     cursor: pointer;
 }
+a{background-color:white;}
 a,.button:hover{background-color:black;color:white;border-color:lightblue;  }
 .header-button{
 	background-color: white;
