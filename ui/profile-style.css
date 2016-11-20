@@ -1,0 +1,144 @@
+.mydiv{
+	max-width:1200px;
+	height:700px;
+	margin:0 auto; 
+	background:white 
+	}
+	body{
+		font-family: 'Raleway', Helvetica, Arial, sans-serif;
+		background-color:#dfdfdf; 
+		
+	}
+	.shadow{
+	-webkit-box-shadow: 0px 0px 22px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 22px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 22px -1px rgba(0,0,0,0.75);
+}
+.main-div{
+	margin-top:49px;
+}
+.photo {
+	border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    
+    float: left;
+    margin: 30px 10px 20px 30px;
+    border:1px solid black;
+}
+.name{
+	padding-top:18px;
+	margin-left:120px;
+	font-weight: 900;
+	font-size:39px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.name-tag{
+    margin-top :15px;
+	margin-left:120px;
+	font-size:15px;
+	letter-spacing: 3px;
+    font-weight: 300;
+}
+.my-info{
+	max-width:500px;
+	text-align: justify;
+	line-height: 23px;
+	margin-left:15px;
+	font-size:17px;
+	font-weight:100;
+	float:left;
+}
+table{
+   	max-width:900px;
+    float:right;
+    border:1px solid #e2e2e2;
+    margin-right:10px;
+    margin-left: 10px;
+    font-size:15px;
+    background-color:#f7f7f7;
+    
+}
+/*th{
+	max-width:900px;
+    padding:5px;
+    text-align:right;
+}*/
+td{padding:5px;max-width:900px;}
+
+.myText {
+    text-align:right;
+}
+
+.font-weight-m {
+    
+    text-align:justify;
+    font-weight:800;
+}
+.myText:hover,.font-weight-m:hover {color:#4673d8;}
+hr{
+	float:none;
+	opacity: 0.4;	
+}	
+.header-hr{margin-top:180px;}
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 12px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover{background-color:black;color:white;border-color:lightblue;  }
+.header-button{
+	background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+.center-align{
+    text-align:center;
+}
+.i-do{height:25px;}
+.dynamic1,.dynamic2{}
+
+.left-align{text-align:left;padding-right: 25px;}
+.right-align{text-align:right;padding-left: 22px; }	
+.h4-width{max-width:350px;margin :0 auto;font-size:15px;font-weight:300;padding-top:15px;}
+.h4-thought{margin:0 auto;text-align:center;padding-top:25px;}
+.p-thought{text-align:center;font-size:15px;}   
+.h4-width:hover,.h4-thought:hover,.p-thought:hover{color:#1c90e2;}
+.what-i-do:hover{color:#1c90e2;}
+.foot{text-align:center;font-size:13px;margin:0 auto;font-weight:300;}
+
+@media (max-width:945px){
+
+    .name {font-size:35px;margin-bottom:10px; }
+    .name-tag {font-size:12px;}
+    .my-info {font-size:14px;line-height:20px;margin-left:10px;margin-right:10px;line-height:19px;}
+    .button {padding : 10px 24px;font-size:12px;}
+    td{padding:3px;}
+    .myText{font-size:14px;}
+    .header-hr{margin-top:300px;}
+    .what-i-do{font-size:13px;font-weight:900;margin-bottom:1px;margin-top:7px; }
+    span{font-size:13px;padding-left:8px;}
+    .left-align {padding-right:20px;}
+    .right-align {padding-left:18px;}
+    .dynamic1 {margin:0 auto;}
+    .h4-thought {margin-top:1px;padding:10px;}
+    .p-thought {font-size:12px;padding-top:7px;margin:1px;} 
+    .dynamic2 {margin-top:0px;}
+    .foot{font-size: 11px;}
+}
+@media (max-width:400px){
+    .my-info{font-size:13px;}
+    .button {padding : 9px 22px;font-size:12px;}
+    .myText{font-size:13px;}
+}

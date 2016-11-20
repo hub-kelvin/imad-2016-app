@@ -1,0 +1,142 @@
+.mydiv{
+	max-width:1200px;
+	height:1020px;
+	margin:0 auto; 
+	background:white 
+	}
+	body{
+		font-family: 'Raleway', Helvetica, Arial, sans-serif;
+		background-color:#dfdfdf; 
+		
+	}
+	.shadow{
+	-webkit-box-shadow: 0px 0px 22px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 22px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 22px -1px rgba(0,0,0,0.75);
+}
+.main-div{
+	margin-top:49px;
+}
+.name{
+	padding-top:18px;
+	margin-left:120px;
+	font-weight: 900;
+	font-size:39px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.name-tag{
+    margin-top :20px;
+	margin-left:120px;
+	font-size:13px;
+	letter-spacing: 3px;
+	font-weight:300;
+}
+.photo {
+	border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    
+    float: left;
+    margin: 30px 10px 20px 30px;
+    border:1px solid #a28080;
+}
+hr{
+	float:none;
+	opacity: 0.4;	
+}
+table{
+   	max-width:900px;
+   	min-width:550px;
+    border:1px solid #e2e2e2;
+    margin-right:10px;
+    margin-left: 10px;
+    font-size:15px;
+    background-color:#f5f5f5;
+    
+}
+td{ padding:5px;   
+    text-align:justify;
+    font-weight:800;
+    line-height: 25px;
+}
+.myText {
+    text-align:right;
+    font-weight:300;
+}
+.table-left {float:left;}
+.table-right {float:right;}
+.h3-edu {margin-left:20px;font-size: 25px;}
+.h3-edu1{margin-top:230px;}
+.des {max-width: 900px;font-weight:300;font-size:17px;}
+.h3-head{text-align:right;margin-right:20px;font-size:25px;margin-top:-55px;}
+.hr-foot1 {margin-top: 240px;}
+.h3-know {text-align:center;font-size: 25px;}
+.my-tick {color:#00b6f9;}
+h4{font-weight: 300;}
+.table-know {border:none;background:none;max-width:900px;margin: 0 auto; }
+h4 {padding:0 20px 0 20px; }
+.tick-clr{color:#00b6f9;font-size:25px;}
+.hob{color:#00b6f9;font-size:55px;}
+.foot{font-size: 11px;margin:0 auto;text-align:center;}
+.h3-head:hover,.h3-edu:hover,.h3-know:hover {color:#00b6f9; }
+.hr-footline{}
+@media (max-width:1156px){
+	
+	.h3-edu {font-size:20px;}
+	.name {font-size:35px;}
+	.name-tag {font-size:12px;}
+	.photo {width:50px;height:50px;}
+	.h3-head {margin-top:160px;font-size:20px;}   
+	td{line-height: 18px;}
+    .hr-foot1{margin-top:180px;}
+    .h3-know {font-size:17px;margin:2px 0 2px 0;}
+    h4 {padding:0 1px 0 1px;margin:5px 0 5px 0;}
+    .tick-clr {font-size:10px;}
+    .table-know {font-size:11px;}
+    table{
+   	max-width:500px;font-size:12px;min-width:900px;} 
+    .hob {font-size:20px;} 
+}
+@media (max-width:1000px) {
+	table {min-width:800px;}
+}
+@media (max-width:900px) {
+	table {min-width:700px;}
+}
+@media (max-width:850px) {
+	table {min-width:600px;}
+}
+@media (max-width:630px) {
+	.name{font-size: 28px;}
+	.photo {width:47px;height:47px;}
+	.name-tag {font-size:12px;margin-top:12px; }
+	table{min-width :550px;}
+	td{line-height: 18px;}
+	.h3-edu{margin-top:17px;}
+	.h3-edu1{margin-top:160px;font-size:17px;}
+	.h3-head {font-size:17px;}
+	.hob {font-size:20px;}
+	.hr-foot1 {margin-top: 160px;}
+	.hr-footline {margin:2px;}
+}
+@media (max-width:595px){
+	.name {font-size:27px;}
+	.name-tag {font-size:12px;}
+	.photo {width:45px;height:45px;}
+	.h3-edu {font-size:20px;margin-top:10px;font-size:17px;}
+	.h3-edu1 {margin-top:150px;}
+	.h3-head {margin-top:150px;font-size:17px;}  
+	 td{line-height: 18px;}
+    .hr-foot1{margin-top:180px;}
+    .h3-know {font-size:17px;margin:2px 0 2px 0;}
+    h4 {padding:0 1px 0 1px;margin:5px 0 5px 0;}
+    .tick-clr {font-size:10px;}
+    .table-know {font-size:11px;}
+    table{
+   	max-width:500px;font-size:12px;} 
+    .hob {font-size:20px;}
+}
