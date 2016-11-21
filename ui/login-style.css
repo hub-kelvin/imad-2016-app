@@ -1,27 +1,12 @@
+#wrap { margin: 0 auto 30px;}
 
+#regbar { height: 67px;background: #34495e;}
 
-#wrap {
-  margin: 0 auto 30px;
-}
+#navthing { margin-left: 50px;}
 
-#regbar {
-  height: 67px;
-  background: #34495e;
-}
+fieldset { border: none;}
 
-#navthing {
-  margin-left: 50px;
-}
-
-fieldset {
-  border: none;
-}
-
-.login {
-  position: relative;
-  width: 350px;
-  display: none;
-}
+.login {position: relative;width: 350px;display: none;}
 
 .arrow-up {
   width: 0;
@@ -40,6 +25,7 @@ fieldset {
   border-radius: 5px;
   padding-top: 5px;
 }
+
 .formholder input[type="text"], .formholder input[type="password"] {
   padding: 7px 5px;
   margin: 10px 0;
@@ -53,10 +39,12 @@ fieldset {
   -o-transition: 0.3s linear;
   transition: 0.3s linear;
 }
-.formholder input[type="text"]:focus, .formholder input[type="password"]:focus {
+
+formholder input[type="text"]:focus, .formholder input[type="password"]:focus {
   outline: none;
   box-shadow: 0 0 1px 1px #1abc9c;
 }
+
 .formholder input[type="submit"] {
   background:#34495e ;
   padding: 10px;
@@ -67,20 +55,15 @@ fieldset {
   color: #fff;
   border-radius: 5px;
 }
+
 .formholder input[type="submit"]:hover {
   background: #1b1e21;
-
 }
 
-.randompad {
-  padding: 10px;
-}
+.randompad { padding: 10px;}
 
-.green {
-  color: #1abc9c;
-}
-.test:hover{
-    cursor:pointer;
-    color:skyblue;
-}
+.green {color: #1abc9c;}
+
+.test:hover {cursor:pointer;color:skyblue;}
+
 label {text-align:left;}
