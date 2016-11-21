@@ -1,38 +1,21 @@
-
+// function to load login area
 function loadLoginForm () {
-    
-  /*  var loginHtml = `
-        <h3>Login/Register</h3>
-        <input type="text" id="username" placeholder="username" />
-        <input type="password" id="password" />
-        <br/><br/>
-        <input type="submit" id="login_btn" value="Login" />
-        <input type="submit" id="register_btn" value="Register" />
-        `;
-    */
-    
-    var loginHtml = 
-        //  <h2><inline class="test" id="loginform" onclick="showLogin()">Login</inline></h2>
-        `   
-    <div class="login" id="login">
-    
-     <div class="formholder">
-     
-       <div class="randompad"> 
-           
-             <label name="username">Username</label>          
-	<input type="text" id="username"></input>
-             <label name="password">Password</label>
-             <input type="password" id="password"/>
-             <input type="submit" value="Login" id="login_btn"/></br>
-            <input type="submit" value="Register" id="register_btn"/>
+	 var loginHtml = `   
+    	<div class="login" id="login">
+		<div class="formholder">
+			 <div class="randompad"> 
+			     <label name="username">Username</label>          
+			     <input type="text" id="username"></input>
+			     <label name="password">Password</label>
+			     <input type="password" id="password"/>
+			     <input type="submit" value="Login" id="login_btn"/></br>
+			     <input type="submit" value="Register" id="register_btn"/>
       
-</div>
-</div>
-</div>
+			</div>
+		</div>
+	</div> ` ;
 
-    `;
- 
+    // login area injection to page 
     document.getElementById('login_area').innerHTML = loginHtml;
     document.getElementById("login").style.display = 'none';
    
@@ -108,11 +91,7 @@ function loadLoginForm () {
 
 function loadLoggedInUser (username) {
     var loginArea = document.getElementById('loginform');
-    loginArea.innerHTML = 
-        //<h3> Hi <i>${username}</i></h3>
-        `
-       <li><a href="/logout">Logout ${username}</a></li>
-    `;
+    loginArea.innerHTML = ` <li><a href="/logout">Logout ${username}</a></li>`;
     document.getElementById("login").style.display = 'none';
 }
 
