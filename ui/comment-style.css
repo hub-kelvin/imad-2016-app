@@ -9,8 +9,7 @@
   border: 5px solid #ccc;
 }
 
-.body .message 
-{
+.body .message {
   min-height: 30px;
   border-radius: 3px;
   font-family: Arial;
@@ -18,6 +17,7 @@
   line-height: 1.5;
   color: #797979;
 }
+
 .tip {
   width: 0px;
   height: 0px;
@@ -25,6 +25,7 @@
   background: transparent;
   border: 10px solid #ccc;
 }
+
 .tip-down {
   bottom: -25px;
   left: 10px;
@@ -32,15 +33,17 @@
   border-left-color: transparent;
   border-bottom-color: transparent;  
 }
+
 .comment-area{
-    
     margin:0 auto;
     border-radius: 3px;
     border: 2px solid #ccc;
 }
+
 .sbtn {background:black;color:white;padding:10px 25px;border:none;cursor:pointer;}
-.sbtn:hover {background:white;color:black;border:1px solid black;
-}
+
+.sbtn:hover {background:white;color:black;border:1px solid black;}
+
 @media (max-width:700px ) {
     .comment-area {max-width:400px;}
 }
