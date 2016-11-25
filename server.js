@@ -38,9 +38,9 @@ function createTemp(data) {
 <body>
 
 <ul>
-<li><a href="">Home</a></li>
-<li><a href="">port80</a></li>
-<li><a href="">Contact</a></li>
+<li><a href="/ui/kelvin-homepage.html">Home</a></li>
+<li><a href="/ui/port80index.html">port80</a></li>
+<li><a href="/ui/mycontact.html">Contact</a></li>
 </ul>
 
 
