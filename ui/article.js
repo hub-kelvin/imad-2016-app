@@ -33,10 +33,16 @@ function loadCommentForm () {
         
         // Make the request
         var comment = document.getElementById('comment_text').value;
+        if (comment !== '') {
         request.open('POST', '/submit-comment/' + currentArticleTitle, true);
         request.setRequestHeader('Content-Type', 'application/json');
         request.send(JSON.stringify({comment: comment}));  
         submit.value = 'Submitting...';
+        }
+        else 
+        {
+            alert("could not post empty comments!");
+        }
         
     };
 }
